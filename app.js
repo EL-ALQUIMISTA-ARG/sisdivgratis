@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let selectedRepresentatives = [];
     let selectedStellarCodes = [];
     let isShuffled = false; 
-    const maxSelections = 99;
+    const maxSelections = 40;
     let currentRepresentativesData = { ...originalRepresentativesData };
     let currentStellarCodesData = { ...originalStellarCodesData };
 
