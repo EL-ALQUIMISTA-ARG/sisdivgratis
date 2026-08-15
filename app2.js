@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cleanContent = cleanContent.replace(/\(?\b\d{6,}\b\)?/g, "");
         cleanContent = cleanContent.replace(/\s\s+/g, ' ');
 
-        const logoURL = "https://cdn.jsdelivr.net/gh/EL-ALQUIMISTA-ARG/sisdivpago@main/ziz.png";
+        const logoURL = "https://cdn.jsdelivr.net/gh/EL-ALQUIMISTA-ARG/sisdivgratis@main/ziz.png";
         const printWindow = window.open('', '_blank');
         printWindow.document.write(`
             <html>
